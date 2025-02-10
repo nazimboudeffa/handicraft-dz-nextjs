@@ -17,7 +17,6 @@ function ProductDetails({ productData }: Readonly<{ productData: ProductData }>)
       <ProductInfo 
         title={productData.title}
         description={productData.description}
-        price={productData.price}
       />
       <button 
         onClick={() => addToCart({ ...productData, quantity: 1 })} 

@@ -1,6 +1,5 @@
 import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
-import Price from '@/components/Price'
 import React from 'react';
 
 interface Product {
@@ -20,7 +19,6 @@ function ProductCard({ product }: ProductCardProps) {
   const handle = product.handle
   const title = product.title
   const description = product.description
-  const price = product.price
   const imageAltText = product.imageAltText
   const imageSrc = product.imageSrc
 
@@ -45,14 +43,6 @@ function ProductCard({ product }: ProductCardProps) {
           </div>
           <div className="text-lg text-gray-600 p-4 font-primary font-light">
             {description}
-          </div>
-          <div
-            className="text-palette-dark font-primary font-medium text-base absolute bottom-0 right-0 mb-4 pl-8 pr-4 pb-1 pt-2 bg-palette-lighter 
-            rounded-tl-sm triangle"
-          >
-            <Price
-              num={price}
-            />
           </div>
         </div>
       </div>

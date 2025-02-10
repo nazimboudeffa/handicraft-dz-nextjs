@@ -86,13 +86,13 @@ function CartPage() {
           {(selectedDeliveryOption && selectedPaymentOption) && (
             <div className="max-w-sm mx-auto space-y-4 px-2 mb-5">
               <h2 className="text-xl font-bold mb-2">Fill in your Address Details</h2>
-              <input type="text" placeholder="Full Name" className="w-full p-2 border rounded mb-2" />
-              <input type="text" placeholder="Phone Number" className="w-full p-2 border rounded mb-2" />
-              <input type="text" placeholder="Email" className="w-full p-2 border rounded mb-2" />
-              <input type="text" placeholder="Street Address" className="w-full p-2 border rounded mb-2" />
-              <input type="text" placeholder="City" className="w-full p-2 border rounded mb-2" />
-              <input type="text" placeholder="Wilaya" className="w-full p-2 border rounded mb-2" />
-              <input type="text" placeholder="Zip Code" className="w-full p-2 border rounded mb-2" />
+              <input type="text" placeholder="Full Name" className="w-full p-2 border rounded mb-2" disabled/>
+              <input type="text" placeholder="Phone Number" className="w-full p-2 border rounded mb-2" disabled/>
+              <input type="text" placeholder="Email" className="w-full p-2 border rounded mb-2" disabled/>
+              <input type="text" placeholder="Street Address" className="w-full p-2 border rounded mb-2" disabled/>
+              <input type="text" placeholder="City" className="w-full p-2 border rounded mb-2" disabled/>
+              <input type="text" placeholder="Wilaya" className="w-full p-2 border rounded mb-2" disabled/>
+              <input type="text" placeholder="Zip Code" className="w-full p-2 border rounded mb-2" disabled/>
             </div>
           )}
           <div className="max-w-sm mx-auto space-y-4 px-2">
