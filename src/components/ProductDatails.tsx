@@ -5,7 +5,6 @@ import { useCart } from '@/context/CartContext';
 interface ProductData {
   title: string;
   description: string;
-  price: number;
 }
 
 function ProductDetails({ productData }: Readonly<{ productData: ProductData }>) {
