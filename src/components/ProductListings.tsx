@@ -5,7 +5,6 @@ interface Product {
   handle: string;
   title: string;
   description: string;
-  price: number;
   imageAltText: string;
   imageSrc: StaticImageData;
 }
