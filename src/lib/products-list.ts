@@ -5,6 +5,18 @@ import image4 from "../assets/product-4.jpg";
 import image5 from "../assets/product-5.jpg";
 import image6 from "../assets/product-6.jpg";
 import image7 from "../assets/product-7.jpg";
+import image8 from "../assets/product-8.jpg";
+import image9 from "../assets/product-9.jpg";
+import image10 from "../assets/product-10.jpg";
+import image11 from "../assets/product-11.jpg";
+import image12 from "../assets/product-12.jpg";
+import image13 from "../assets/product-13.jpg";
+import image14 from "../assets/product-14.jpg";
+import image15 from "../assets/product-15.jpg";
+import image16 from "../assets/product-16.jpg";
+import image17 from "../assets/product-17.jpg";
+import image18 from "../assets/product-18.jpg";
+import image19 from "../assets/product-19.jpg";
 
 export const products = [
   {
@@ -69,5 +81,113 @@ export const products = [
     price: 700,
     imageSrc: image7,
     imageAltText: "Product 7 image",
+  },
+  {
+    id: 8,
+    handle: "product-8",
+    title: "Product 8",
+    description: "Description for Product 8",
+    price: 800,
+    imageSrc: image8,
+    imageAltText: "Product 8 image",
+  },
+  {
+    id: 9,
+    handle: "product-9",
+    title: "Product 9",
+    description: "Description for Product 9",
+    price: 900,
+    imageSrc: image9,
+    imageAltText: "Product 9 image",
+  },
+  {
+    id: 10,
+    handle: "product-10",
+    title: "Product 10",
+    description: "Description for Product 10",
+    price: 1000,
+    imageSrc: image10,
+    imageAltText: "Product 10 image",
+  },
+  {
+    id: 11,
+    handle: "product-11",
+    title: "Product 11",
+    description: "Description for Product 11",
+    price: 1100,
+    imageSrc: image11,
+    imageAltText: "Product 11 image",
+  },
+  {
+    id: 12,
+    handle: "product-12",
+    title: "Product 12",
+    description: "Description for Product 12",
+    price: 1200,
+    imageSrc: image12,
+    imageAltText: "Product 12 image",
+  },
+  {
+    id: 13,
+    handle: "product-13",
+    title: "Product 13",
+    description: "Description for Product 13",
+    price: 1300,
+    imageSrc: image13,
+    imageAltText: "Product 13 image",
+  },
+  {
+    id: 14,
+    handle: "product-14",
+    title: "Product 14",
+    description: "Description for Product 14",
+    price: 1400,
+    imageSrc: image14,
+    imageAltText: "Product 14 image",
+  },
+  {
+    id: 15,
+    handle: "product-15",
+    title: "Product 15",
+    description: "Description for Product 15",
+    price: 1500,
+    imageSrc: image15,
+    imageAltText: "Product 15 image",
+  },
+  {
+    id: 16,
+    handle: "product-16",
+    title: "Product 16",
+    description: "Description for Product 16",
+    price: 1600,
+    imageSrc: image16,
+    imageAltText: "Product 16 image",
+  },
+  {
+    id: 17,
+    handle: "product-17",
+    title: "Product 17",
+    description: "Description for Product 17",
+    price: 1700,
+    imageSrc: image17,
+    imageAltText: "Product 17 image",
+  },
+  {
+    id: 18,
+    handle: "product-18",
+    title: "Product 18",
+    description: "Description for Product 18",
+    price: 1800,
+    imageSrc: image18,
+    imageAltText: "Product 18 image",
+  },
+  {
+    id: 19,
+    handle: "product-19",
+    title: "Product 19",
+    description: "Description for Product 19",
+    price: 1900,
+    imageSrc: image19,
+    imageAltText: "Product 19 image",
   },
 ];

@@ -6,8 +6,8 @@ function ProductImage({ imageSrc }: { readonly imageSrc: StaticImageData }) {
       <div className="overflow-hidden relative h-full">
         <Image
           src={imageSrc}
-          width={1000}
-          height={1000}
+          width={512}
+          height={512}
           alt="product-image"
           className="transform duration-500 ease-in-out hover:scale-105"
         />

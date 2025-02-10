@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
           <div className="space-y-2">
             <Link href="/" className="flex items-center gap-3">
-              mini store
+              Artisanat
             </Link>
             <p className="text-sm text-muted-foreground">
-              A simple e-commerce solution
+              Votre boutique en ligne pour les produits artisanaux algériens.
             </p>
           </div>
           <div className="flex flex-wrap gap-5 text-sm text-muted-foreground">
