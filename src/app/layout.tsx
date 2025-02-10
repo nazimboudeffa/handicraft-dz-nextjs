@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mini Store",
-  description: "A simple e-commerce solution",
+  title: "Artisanat",
+  description: "Votre boutique en ligne pour les produits artisanaux algériens.",
 };
 
 export default function RootLayout({
