@@ -5,7 +5,6 @@ export type Product = {
     handle: string;
     title: string;
     description: string;
-    price: number;
     imageSrc: StaticImageData;
     imageAltText: string;
   };
