@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
           <div className="space-y-2">
             <Link href="/" className="flex items-center gap-3">
-              Artisanat
+              ARTISANAT
             </Link>
             <p className="text-sm text-muted-foreground">
               Votre boutique en ligne pour les produits artisanaux algériens.

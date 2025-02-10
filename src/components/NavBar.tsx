@@ -12,7 +12,7 @@ function NavBar() {
           <div className=" cursor-pointer">
             <h1 className="flex no-underline">
               <span className="text-xl font-primary font-bold tracking-tight pt-1">
-                Artisanat
+                ARTISANAT
               </span>
             </h1>
           </div>
