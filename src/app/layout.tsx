@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Artisanat",
+  title: "Artisanat DZ",
   description: "Votre boutique en ligne pour les produits artisanaux algériens.",
 };
 
